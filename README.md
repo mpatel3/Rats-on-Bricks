@@ -31,9 +31,9 @@ A JavaScript code for Rats moving on the bricks based on the Temperature change 
 
 * Criteria
     
-    * Input Specification: Input should be initial position of rats,temperature of bricks and the no. of steps after which you want to find the position of the rats. ** For example: input should be    "1#1,2#5,3#3,6#3","2#6#8#6#-7,2#5#-5#-5#0,-1#3#-8#8#7,3#2#0#6#9,2#1#-4#5#8,-5#6#7#4#7",3**
+    * **Input Specification**: Input should be initial position of rats,temperature of bricks and the no. of steps after which you want to find the position of the rats. ** For example: input should be    "1#1,2#5,3#3,6#3","2#6#8#6#-7,2#5#-5#-5#0,-1#3#-8#8#7,3#2#0#6#9,2#1#-4#5#8,-5#6#7#4#7",3**
         
-    * Output Specification: Output should be positions of rats after given number of steps.Output position should be in order of given input positions. ** For example: output for above input should be "2#1,2#4,2#3,6#2".
+    * **Output Specification**: Output should be positions of rats after given number of steps.Output position should be in order of given input positions. ** For example: output for above input should be "2#1,2#4,2#3,6#2".
     
-    * Criteria: If you have a choice in movement(i.e. more than one positions give minimum change in magnitude ) then preference should be given in order upper,right,bottom and left.
+    * **Condition**: If you have a choice in movement(i.e. more than one positions give minimum change in magnitude ) then preference should be given in order upper,right,bottom and left.
 
