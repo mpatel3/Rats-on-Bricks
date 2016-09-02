@@ -5,7 +5,7 @@ A JavaScript code for Rats moving on the bricks based on the Temperature change 
 
 * Some Rats are moving in Rectangular Surface which is made using Rectangular bricks. Each brick has its own **temprature**.
 
-*   1   |2    | 3   | 4   | 5
+*   col-1   | col-2    | col-3   | col-4   | col-5
     --- | --- | --- | --- | ---
     2   | 6   | 8   | 6   | 7
     2   | 5   | -5  | -5  | 0
