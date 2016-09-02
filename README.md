@@ -21,5 +21,8 @@ A JavaScript code for Rats moving on the bricks based on the Temperature change 
 * At any time Lets say rat always move to that nearby brick,by moving to which he can go
   minimum temprature change.(magnitude)
 
+![Example ScreenShot](https://github.com/CybageManthan/Rats-on-Bricks/blob/master/Capture.PNG)
 
-    
+
+* Above Figure Shows the one iteration of the rats movements from their **initial position** and the  
+  calculation of the Temperature differnce(magnitude.)
