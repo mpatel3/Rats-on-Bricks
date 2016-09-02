@@ -15,5 +15,11 @@ A JavaScript code for Rats moving on the bricks based on the Temperature change 
     -5  | 6   | 7   | 4   | 7
     
 * Above table shows the example.Number written in each brick is the temprature of that brick. 
-* Lets say some rats are positioned on some bricks. i.e. on [1,1] , [2,5] ,[3,3],[6,3]
+
+* Lets say some rats are positioned on some bricks. i.e. on **[1,1] & [2,5] & [3,3] & [6,3]**
+
+* At any time Lets say rat always move to that nearby brick,by moving to which he can go
+  minimum temprature change.(magnitude)
+
+
     
