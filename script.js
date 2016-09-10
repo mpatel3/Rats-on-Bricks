@@ -130,17 +130,29 @@ function RatsPostions(input1,input2,input3)
                     }
                     
                 }
-              
-                input_arr = []; /*flusing the input_array for the next iteration. */
+
+                /*INPUT_ARR CONTAINS THE FINAL RESULT*/   
+                
+                input_arr = []; /*flusing the input_array for the next iteration */
                 input_arr = min_array;
                 min_array = []; /*or flusing the min_array for the next iteration. */ 
-                
-             
-            }             
+            }
+           
+           /*---------------------------------CREATE A STRING TO RETURN A FINAL RESULT-------------------*/
+           var finalString = '';
+           
+           for(z=0;z<input_arr.length;z++) {
+            
+              finalString += (input_arr[z][0] + 1) + '#' + (input_arr[z][1] + 1) + ','; 
+              
+           }
+          return finalString.substr(0,(finalString.length - 1));          
+            
 	} 
 
 
 /*Calling a Function. */
-RatsPostions("1#1,2#5,3#3,6#3","2#6#8#6#-7,2#5#-5#-5#0,-1#3#-8#8#7,3#2#0#6#9,2#1#-4#5#8,-5#6#7#4#7",3);
+var finalRatsPositions = RatsPostions("1#1,2#5,3#3,6#3","2#6#8#6#-7,2#5#-5#-5#0,-1#3#-8#8#7,3#2#0#6#9,2#1#-4#5#8,-5#6#7#4#7",3);
+console.log(finalRatsPositions);
 
     
